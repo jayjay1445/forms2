@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form1.css">
+
+    <script src="https://kit.fontawesome.com/8efc9270e5.js" crossorigin="anonymous"></script>
+</head>
+<body class="body">
+    <div class="container">
+        <fieldset class="field">
+        <table>
+            <form id="myform" method="post" onsubmit="return validateform()">
+                <tr>
+                    <td class="email">EMAIL</td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa-solid fa-user"></i><input id="emailbox" type="email" placeholder="mail@johndoe.com" required></td>
+                </tr>
+
+                <tr>
+                    <td class="password">PASSWORD</td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa-solid fa-lock"></i><input type="password" id="password" placeholder=" enter password"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="submit" value="LOGIN" id="submit"></td>
+                </tr>
+                <br>
+
+                <td class="fpass">Forgot Password?</td> 
+                <tr>
+                    <td class="or">OR</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button class="mybut">
+                            <a href="#">LOG IN WITH FACEBOOK</a>
+                        </button>
+                    </td>
+                </tr>
+            </form>
+        </table>
+
+    </div>
+    
+<script src="form1.js"></script>
+</body>
+</html>

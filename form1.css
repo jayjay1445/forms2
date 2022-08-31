@@ -1,0 +1,74 @@
+.body{
+  background-image: url(../forms/IMG_4468.jpg);
+}
+.container{
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+    margin: 50px;
+}
+.field{
+    height: 350px;
+    width: 250px;
+    border-color: orange;
+}
+.email{
+    color: black;
+    font-family: sans-serif;
+}
+#emailbox{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    color: black;
+    width: 150px;
+    margin-bottom: 15px;
+}
+.password{
+    color: black;
+    margin: 50px;
+}
+#password{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    color: black;
+    margin-bottom: 25px;
+    width: 150px;
+}
+#submit{
+    width: 180px;
+    height: 35px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: large;
+}
+.fpass{
+    color: black;
+    font-family: sans-serif;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5px;
+}
+.or{
+    color: black;
+    font-family: sans-serif;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+.mybut{
+    background-color: blue;
+    width: 200px;
+    height: 30px;
+}
+.mybut a{
+    color: black;
+    text-decoration: none;
+}
